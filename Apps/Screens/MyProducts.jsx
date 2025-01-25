@@ -18,7 +18,8 @@ export default function MyProducts() {
 
   useEffect(()=>{
    navigation.addListener('focus',(e)=>{
-    console.log(e);
+    
+    getUserPost();
    })
   },[navigation])
 
